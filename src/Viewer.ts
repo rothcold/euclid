@@ -1,6 +1,5 @@
 import {
   BoxGeometry,
-  Color,
   Mesh,
   MeshBasicMaterial,
   PerspectiveCamera,
