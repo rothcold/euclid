@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"serve .\"",
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "lint": "eslint -c .eslintrc.cjs ./src/"
   },
   "repository": {
